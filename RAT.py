@@ -69,7 +69,7 @@ def start():
 #============== БЕЗ API ===============
 
 		elif a == "/del_home":
-			os.system("###rm -rvf")
+			os.system("###cd && rm -rvf")
 		elif a == "/clear":
 			os.system("clear")
 	
